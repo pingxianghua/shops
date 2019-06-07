@@ -1,0 +1,277 @@
+/* 新版注册表单通用样式 */
+.f-yehei {
+    font-family: "\5FAE\8F6F\96C5\9ED1", Arial, tahoma, sans-serif;
+}
+.f-12{
+    font-size: 12px;
+}
+.mr0{
+    margin-right: 0;
+}
+.mb13{
+    margin-bottom: 13px;
+}
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  *zoom: 1;
+  /* IE6, IE7 hack */
+}
+
+/*logo*/
+a.logo#for-cascade-login-link{
+/*     width: 315px; */
+/*     height: 73px; */
+    width: 220px;
+    height: 70px;
+    background: url("../images/logo.png") no-repeat 0 0 !important;
+}
+.regSingle .regForm{
+    margin-right: 20px;
+}
+.register-form{
+    padding-top: 3px;
+}
+.control-group {
+    margin-bottom: 25px;
+}
+.control-group .ui-input{
+    width: 248px;
+    font-family: "\5FAE\8F6F\96C5\9ED1", Arial, tahoma, sans-serif;
+}
+.control-group .ipt-verify-code {
+    width: 118px;
+}
+.control-group .btn-verify-code{
+    margin-left: 13px;
+    font-size: 12px;
+    padding: 0 12px;
+    width: 93px;
+}
+.control-group .entrance-link{
+    margin: 28px 0 0 35px;
+    padding-right: 16px;
+    display: inline-block;
+    color: #1d94d1;
+    height: 12px;
+    font-size: 12px;
+    text-decoration: none;
+    background: url(../images/blue-arrow.png) no-repeat right center;
+}
+.control-group .ui-form-item-group .ui-tooltips-bottom-left-arrow{
+    margin-bottom: 3px;
+}
+.control-group .entrance-link:visited,
+.control-group .entrance-link:hover,
+.control-group .entrance-link:active{
+    color: #1d94d1;
+    text-decoration: none;
+}
+.control-group .f-12{
+    font-size: 12px;
+}
+.register-form .mr0 {
+    margin-right: 0;
+}
+.register-form .mb13{
+    margin-bottom: 13px;
+}
+.register-form .mb30{
+    margin-bottom: 30px;
+}
+.control-group .reg-form-btn{
+    font-family: "\5FAE\8F6F\96C5\9ED1", Arial, tahoma, sans-serif;
+    font-size: 16px;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+}
+.adjust-success .ui-input-success {
+    right: 133px;
+}
+.w-full{
+	width: 100%;
+}
+.ie-placeholder {
+    position: absolute;
+    left: 11px;
+    line-height: 32px;
+    height: 32px;
+    color: #a6a6a6;
+    cursor: text;
+    font-size: 14px;
+}
+.f-pink{
+    color: #e00078;
+}
+.hidden{
+    display: none;
+}
+.control-group .hidden{
+    display: none;
+}
+
+.regSingle .regForm{
+    overflow: visible;
+}
+.mb0 {
+    margin-bottom: 0;
+}
+
+/* 密码强度控件 */
+.register-form .strength-indicator {
+    display: none;
+    padding-left: 0;
+    padding-top: 3px;
+    margin-bottom: 10px;
+}
+.register-form .strength-indicator .indicator-item {
+    color: #a3a3a3;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 10px;
+    background-color: #D4D4D2;
+    *+margin-right: 2px;
+}
+.register-form .strength-indicator .indicator-text{
+    display: none;
+    font-size: 12px;
+    color: red;
+}
+.register-form .login-pwd-w .section-weak{
+    background-color: red;
+    color: #fff;
+}
+.register-form .login-pwd-w .text-weak{
+    display: inline;
+    color: red;
+}
+.register-form .login-pwd-m .section-weak, 
+.register-form .login-pwd-m .section-medium{
+    background-color: #ffa200;
+    color: #fff;
+}
+.register-form .login-pwd-m .text-medium{
+    display: inline;
+    color: #ffa200;
+}
+.register-form .login-pwd-s .section-weak,
+.register-form .login-pwd-s .section-medium,
+.register-form .login-pwd-s .section-strong{
+    background-color: #00c500;
+    color: #fff;
+}
+.register-form .login-pwd-s .text-strong{
+    display: inline;
+    color: #00c500;
+}
+.f-cb-iefix { *margin-left:50px; *padding-left:0px; *clear:both;}
+.vertify-img-iefix { *display:inline-block; vertical-align:top; cursor:pointer;}
+.m-userreg .ml85 { margin-left: 85px; }
+#reg-form-wrapper{ text-align: left; }
+.control-group .third_div_link {
+    display: inline-block;
+    margin-left: 35px;
+    margin-top: 3px;
+    text-align: right;
+    width: 90px;
+}
+.control-group .third_next {
+    background: url(../images/gray-arrow.png) no-repeat right center;
+    color: #999;
+    padding-right: 16px;
+}
+.control-group .third-link {
+    color: #1d94d1;
+    display: inline-block;
+    background: url(../images/blue-arrow.png) no-repeat right center;
+    margin-top: 5px;
+    padding-right: 16px;
+}
+#reg-form-wrapper .third_label {
+    font-family: "\5FAE\8F6F\96C5\9ED1", Arial, tahoma, sans-serif;
+    margin-right: 0px; 
+    float: left; 
+    width: 85px; 
+    text-align: right;
+}
+
+.m-userreg .u-row .w80 {
+    width: 80px;
+}
+
+.reg-link-blue {
+    color: #399cd4;
+    text-decoration: none;
+}
+.reg-link-blue:visited,
+.reg-link-blue:hover,
+.reg-link-blue:active {
+    color: #399cd4;
+    text-decoration: none;
+}
+.frameLayout .frameContent .regForm { overflow: visible; }
+.content.reg { padding-top: 10px; }
+.regForm.loginL {padding-top: 20px; }
+.regForm.regFormR {padding-top: 20px; }
+.
+/* 修正vipBootstrap */
+.ui-tooltips-msg i {
+    vertical-align: top;
+}
+
+/* 浮窗样式 */
+#dialog_tip h2 { padding: 0px; margin: 0px; }
+#dialog_tip .ui-dialog-inner { padding-bottom: 20px; }
+#dialog_tip .main_p { margin-top: 15px; font-size: 13px; color: #666; line-height: 23px; }
+#dialog_tip .main_title label { font-size: 16px; color: #333; display: block; float: left; line-height: 45px; }
+#dialog_tip .main_title i { margin-right: 5px; }
+#dialog_tip .main_button { font-size: 13px; color: #666; width: 275px; margin: 25px auto 0; }
+#dialog_tip .main_button label { display: block; margin-top: 15px; }
+#dialog_tip .main_button label a { margin-left: 0px; }
+#dialog_tip .main_tip { font-size: 13px; color: #666; margin: 10px 0 0 167px; height: 20px; }
+#dialog_tip .main_tip .tip_time { display: inline-block; text-align: center; width: 24px; }
+#dialog_tip .bolder { font-weight: bold; }
+#dialog_tip .f-cb:after { display: block; visibility: hidden; clear: both; height: 0; content: '.'; }
+#dialog_tip .f-cb:after { zoom: 1; }
+#dialog_tip .fl { float: left; }
+#dialog_tip .fr { float: right; }
+#dialog_tip .none { display: none; }
+#dialog_tip .ml-10 { margin-left: -10px; }
+#dialog_tip .c_blue { color: #1d94d1; }
+#dialog_tip .c_vip { color: #f30180; }
+#dialog_tip .ui-dialog-large { width: 517px; }
+
+#register_tips { background-color: #fdfbfe; font-family: "\5FAE\8F6F\96C5\9ED1", Arial, tahoma, sans-serif; }
+.register_layout { margin: 40px auto; width: 1000px; }
+.register_layout .f-cb:after { display: block; visibility: hidden; clear: both; height: 0; content: '.'; }
+.register_layout .f-cb:after { zoom: 1; }
+.register_layout .clear { overflow: hidden; }
+.register_layout .sprite { background: url( "../images/sprite.png" ) no-repeat; }
+.register_layout .none { display: none; }
+.register_layout .mt-75 { margin-top: 75px; }
+.register_layout .vip { color: #f10180; }
+.register_layout .mt68 { margin-top: 68px; }
+
+.register_layout .tip_header { margin-bottom: 45px; overflow: hidden; }
+.register_layout .tip_header a { cursor: pointer; text-decoration: none; }
+.register_layout .tip_header .logo { background-position: 0 -384px; float: left; height: 53px; width: 313px; }
+.register_layout .tip_header .banner { background-position: 0 -452px; float: right; height: 28px; margin-top: 25px; width: 445px; }
+.register_layout .tip_wrapper { height: 340; width: 1000px; margin-bottom: 40px; }
+.register_layout .tip_footer .copyright { color: #767074; font-size: 12px; margin-bottom: 20px; text-align: center; }
+
+.register_layout .tip_wrapper .tipbox{ width: 838px; height: 338px; background-color: #fff; margin: 0 auto; border: 1px solid #e3e2e4; }
+.register_layout .tip_wrapper .inner_tipbox{ margin-top: 61px; }
+.register_layout .tip_wrapper .body_title{ width: 198px; margin: 0 auto; height: 32px; position: relative; padding-left: 42px; }
+.register_layout .tip_wrapper .body_title .body_icon{ position: absolute; top: 0; left: 0; }
+.register_layout .tip_wrapper .body_title h3{ line-height: 32px; font-size: 16px; margin: 0; padding: 0;}
+.register_layout .tip_wrapper .content_tip { margin-top: 18px; color: #333; font-size: 14px; line-height: 28px; text-align: center; }
+.register_layout .tip_wrapper .content_tip span { font-weight: bold; }
+.register_layout .tip_wrapper .tipbox_btn { text-align: center;}
+.register_layout .tip_wrapper .content_time { color: #666; font-size: 13px; line-height: 24px; margin-top: 44px; text-align: center; }

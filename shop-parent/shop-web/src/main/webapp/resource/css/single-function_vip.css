@@ -1,0 +1,494 @@
+.u-risk-dialog .u-dialog-title {
+	font-size: 14px;
+	-webkit-text-stroke: initial;
+	font-weight: 700
+}
+
+.u-dialog-username {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	color: #f10180;
+	max-width: 65px;
+	_width: 65px;
+	text-indent: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	vertical-align: top
+}
+
+.u-risk-dialog .ui-form-item-group .ui-tooltips {
+	margin-bottom: 4px
+}
+
+.z-ui-tooltips-info, .z-ui-tooltips-info .u-tooltips-note {
+	visibility: visible;
+	-webkit-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+	transform: translate(0, 0);
+	opacity: 1;
+	filter: alpha(opacity = 100);
+	-webkit-transition-duration: .25s;
+	transition-duration: .25s
+}
+
+.u-risk-dialog .z-ui-tooltips-in .u-tooltips-note {
+	visibility: hidden;
+	opacity: 0;
+	filter: alpha(opacity = 0)
+}
+
+.z-ui-tooltips-warming-in, .z-ui-tooltips-warming-in .u-tooltips-warming
+	{
+	visibility: visible;
+	-webkit-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+	transform: translate(0, 0);
+	opacity: 1;
+	filter: alpha(opacity = 100);
+	-webkit-transition-duration: .25s;
+	transition-duration: .25s
+}
+
+.m-input-box input {
+	width: 208px
+}
+
+.u-risk-dialog .ui-tooltips-msg {
+	white-space: nowrap
+}
+
+.u-risk-dialog .u-tooltips-info {
+	text-indent: 0;
+	padding: 0
+}
+
+.m-passport-box {
+	height: 19px;
+	margin: 5px 0 3px 84px
+}
+
+.m-passport-line {
+	font-size: 0
+}
+
+.u-risk-submit {
+	width: 100px
+}
+
+.m-passport-line .step {
+	margin-right: 5px;
+	display: inline-block;
+	width: 30px;
+	height: 10px;
+	background-color: #d4d4d2;
+	-webkit-transition: background-color .3s;
+	transition: background-color .3s
+}
+
+.u-progess-text {
+	font-size: 12px;
+	padding-left: 5px
+}
+
+.z-step-1 .step-1 {
+	background-color: red
+}
+
+.z-step-1 .u-progess-text {
+	color: red
+}
+
+.z-step-2 .step-1, .z-step-2 .step-2 {
+	background-color: #ffa200
+}
+
+.z-step-2 .u-progess-text {
+	color: #ffa200
+}
+
+.z-step-3 .step-1, .z-step-3 .step-2, .z-step-3 .step-3 {
+	background-color: #00c500
+}
+
+.z-step-3 .u-progess-text {
+	color: #00c500
+}
+
+.u-dialog-time {
+	padding-top: 18px;
+	font-size: 12px;
+	text-align: center;
+	color: #999
+}
+
+.u-dialog-second {
+	color: #f10180
+}
+
+.u-risk-dialog .ie-placeholder {
+	position: absolute;
+	left: 11px;
+	line-height: 32px;
+	height: 32px;
+	color: #a6a6a6;
+	cursor: text;
+	font-size: 14px
+}
+
+.z-dialog-small .m-passport-box {
+	margin-left: 0
+}
+
+.z-dialog-small .u-dialog-username {
+	display: none
+}
+
+.g-content {
+	height: 600px;
+	background-position: center center;
+	background-repeat: no-repeat
+}
+
+.m-single-function {
+	float: right;
+	width: 274px;
+	padding-top: 40px;
+	padding-right: 100px
+}
+
+.u-panel-text {
+	font-size: 12px;
+	padding-left: 10px;
+	line-height: 40px;
+	vertical-align: middle
+}
+
+.u-panel-text a {
+	color: #f43499;
+	*vertical-align: middle
+}
+
+.m-phone-panel {
+	display: none
+}
+
+.z-panel-switch .m-login-panel {
+	display: none
+}
+
+.z-panel-switch .m-phone-panel {
+	display: block
+}
+
+.u-form-top-tip {
+	font-size: 14px;
+	line-height: 16px;
+	margin-bottom: 15px;
+}
+
+.m-login-radio {
+	margin-bottom: 15px
+}
+
+.m-login-radio .u-label {
+	margin-right: 15px
+}
+
+.u-form-tip {
+	height: 25px;
+	line-height: 25px;
+	margin-top: -25px;
+	color: #f20266
+}
+
+.u-form-item {
+	position: relative;
+	margin-bottom: 25px
+}
+
+.u-form-item .ui-input {
+	width: 250px;
+	padding: 8px 10px
+}
+
+.u-form-item .u-captcha {
+	width: 130px;
+	vertical-align: middle
+}
+
+.u-form-item .u-btn {
+	width: 90px;
+	vertical-align: middle;
+	padding: 0 10px;
+	font-size: 12px
+}
+
+.u-form-item .u-btn span {
+	color: #e00078
+}
+
+.u-capslock-tip {
+	left: 282px;
+	top: 2px
+}
+
+.z-input-error {
+	-webkit-animation: errorBorder .5s linear;
+	animation: errorBorder .5s linear
+}
+
+.z-input-error, .z-input-error:focus, .z-input-error:hover {
+	border-color: #f20266
+}
+
+.ie-placeholder {
+	position: absolute;
+	left: 11px;
+	line-height: 36px;
+	height: 36px;
+	color: #a6a6a6;
+	cursor: text;
+	font-size: 14px
+}
+
+.z-input-success {
+	background: #fff url("input-success.png-9ad30364.png")/*暂时不用该图标*/
+		/*tpa=https://member-ssl.vipstatic.com/img/passport/input-success.png?9ad30364*/
+		 right center no-repeat
+}
+
+.u-code-img {
+	display: inline-block;
+	width: 49px;
+	height: 34px;
+	border: 1px solid #d7d6d8;
+	border-radius: 3px;
+	background: #fff;
+	overflow: hidden;
+	vertical-align: top
+}
+
+.u-change-code {
+	display: inline-block;
+	vertical-align: top;
+	line-height: 36px;
+	*margin-left: 3px
+}
+
+.u-form-submit {
+	margin-bottom: 15px
+}
+
+button.u-submit-function {
+	width: 140px;
+	height: 40px;
+	font-size: 16px;
+	line-height: 40px;
+	*vertical-align: middle
+}
+
+.m-other-function {
+	*zoom: 1;
+	margin-bottom: 50px
+}
+
+.m-other-function:after, .m-other-function:before {
+	content: ' ';
+	display: table
+}
+
+.m-other-function:after {
+	clear: both
+}
+
+.u-checkbox-label {
+	display: inline-block;
+	line-height: 16px;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+
+.u-forget-middle {
+	vertical-align: middle
+}
+
+.u-forget-span {
+	vertical-align: middle;
+	color: #f43499
+}
+
+.u-cannot-login {
+	float: right;
+	color: #b3b3b3
+}
+
+.u-cannot-login .forget {
+	color: #666
+}
+
+.u-cannot-login .forget:hover {
+	color: #f10180
+}
+
+.u-cannot-login .reg {
+	color: #f10180
+}
+
+.m-passport-panel {
+	display: block
+}
+
+.m-vf-item {
+	margin-bottom: 25px
+}
+
+.m-vf-item .ui-btn-primary {
+	margin-left: 84px
+}
+
+.m-vf-item .ui-form-item-group {
+	*zoom: 1
+}
+
+.m-vf-item .u-link {
+	display: inline-block;
+	line-height: 32px;
+	margin-left: 10px
+}
+
+.m-pwd-strength {
+	margin-top: -25px;
+	height: 25px
+}
+
+.m-pwd-strength .lv-name {
+	display: inline-block;
+	padding-left: 3px;
+	vertical-align: top
+}
+
+.u-pwd-lv {
+	display: inline-block;
+	width: 25px;
+	height: 8px;
+	font-size: 0;
+	line-height: 0;
+	background-color: #d4d4d2;
+	margin-right: 2px;
+	margin-top: 5px;
+	vertical-align: top
+}
+
+.u-pwd-lv:nth-child(1) {
+	border-radius: 2px 0 0 2px
+}
+
+.u-pwd-lv:nth-child(3) {
+	border-radius: 0 2px 2px 0
+}
+
+.z-pwd-weak {
+	color: #ff5151
+}
+
+.z-pwd-weak .lv1 {
+	background-color: #ff5151
+}
+
+.z-pwd-medium {
+	color: #ffc147
+}
+
+.z-pwd-medium .lv1, .z-pwd-medium .lv2 {
+	background-color: #ffc147
+}
+
+.z-pwd-strong {
+	color: #23c279
+}
+
+.z-pwd-strong .u-pwd-lv {
+	background-color: #23c279
+}
+
+.m-passport-panel {
+	display: none
+}
+
+.z-passport-show .m-phoneLogin-panel {
+	display: none
+}
+
+.z-passport-show .m-passport-panel {
+	display: block
+}
+
+@
+-webkit-keyframes errorBorder { 25%,75%{
+	border-color: #b2b2b2
+}
+
+0%,100%,50%{
+border-color
+:
+#f20266
+}
+}
+@
+keyframes errorBorder { 25%,75%{
+	border-color: #b2b2b2
+}
+
+0%,100%,50%{
+border-color
+:
+#f20266
+}
+}
+.m-username-dia .title {
+	font-size: 14px;
+	color: #666;
+	padding-bottom: 5px
+}
+
+.m-username-list {
+	background-color: #f3f1f4;
+	max-height: 250px;
+	_height: 250px
+}
+
+.m-username-list .ui-dialog-inner {
+	padding: 20px 60px
+}
+
+.m-username-list li {
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	border-bottom: 1px solid #dcdcdc;
+	padding: 8px 0
+}
+
+.m-username-list li:last-child {
+	border: 0
+}
+
+.m-username-list li .ui-label {
+	width: 150px;
+	text-align: left;
+	padding-left: 8px
+}
+
+.z-list-over {
+	overflow-y: scroll
+}
+
+.u-username-btn {
+	margin: 25px 0 0
+}

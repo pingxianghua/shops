@@ -1,0 +1,111 @@
+html , body , form , div , p , span , input , a { padding: 0; margin: 0; }
+p , input , a , span , div { font-family: "微软雅黑"; }
+body { height : 2048px; }
+
+/***** 统一清除浮动 *****/
+.f-cb:after { display: block; visibility: hidden; clear: both; height: 0; content: '.'; }
+.f-cb:after { zoom: 1; }
+.none { display: none; }
+.fl { float: left; }
+.fr { float: right; }
+.red { color: red; }
+.blue { color: #1e94d2; }
+.gray { color: #808080; }
+.mt30 { margin-top: 30px; }
+.mt60 { margin-top: 60px; }
+.mt5 { margin-top: 5px; }
+
+/***** CSS Sprite *****/
+.floating-top .top-img , 
+.floating-top .top-close ,
+.phone-default .phone-default-verify input ,
+.phone-default .phone-default-verify .phone-default-button ,
+.phone-verify .phone-verify-verify input ,
+.phone-verify .phone-verify-verify .phone-verify-button ,
+.phone-verify-timedown .phone-timedown-tip ,
+.email-verify-timedown .email-timedown-tip ,
+.phone-verify-timedown .phone-timeover-button ,
+.email-verify-timedown .email-timeover-button,
+.email-default .email-default-verify input ,
+.email-default .email-default-verify .email-default-button ,
+.email-verify-success-btn  { background  : url("../images/icons.png") no-repeat; }
+
+/***** 浮窗底层 -> 背景 *****/
+.body-bg { width : 100%; height : 2048px; background-color : #000; opacity : 0.3; filter : alpha(opacity = 30); position : absolute; z-index : 0; top : 0; left: 0; } 
+.floating-content { width : 430px; height : 290px; padding : 15px 15px 5px 15px; background-color : #fff; position : fixed; _position : relative; _z-index: 999; -webkit-box-shadow: #666 0px 0px 10px; -moz-box-shadow: #666 0px 0px 10px; box-shadow: #666 0px 0px 10px; }
+.floating-content .middle-line { border-bottom: 1px solid #bfbdbf; width: 410px; }
+.floating-content .floating-success p { font-size: 30px; color: #f10180; padding : 25px 0 15px 130px; }
+.floating-failure { font-size: 24px; color: #f10180; padding : 25px 0 15px 0px; }
+/* 浮窗顶层 -> 头部 */
+.floating-top { width : 100%; height : 24px; }
+.floating-top .top-img { background-position: 0 0; display: block; height: 24px; padding-left: 15px; }
+.floating-top .top-img p { font-size: 18px; line-height : 24px; }
+.floating-top .top-close { background-position: 0 -185px; display : block; height: 13px; width: 13px; }
+.floating-top .top-close:hover { background-position: -20px -185px; cursor: pointer; }
+/* 浮窗顶层 -> TAB层 */
+.floating-tab { margin-top: 30px; width: 410px; padding-right: 10px; padding-left: 10px; }
+.floating-tab .tab-phone { padding-left: 20px; }
+.floating-tab .tab-mail { padding-left: 120px; }
+.floating-tab .tab-chosen p { font-size: 20px;  color: #f10180; float: left; text-align: center; cursor: pointer; padding-bottom: 5px; border-bottom : solid 2px #f10180; }
+.floating-tab .tab-gray p { color: #808080; font-size: 16px; padding-top : 4px; width : 85px; float : left; text-align : center; line-height: 23px; cursor: pointer; }
+.floating-tab .tab-line { border-bottom: 1px solid #f10180; +margin-top: 29px; _margin-top: 25px; }
+
+/***** 浮窗中层 *****/
+.floating-middle { margin-top: 20px; margin-left: 20px; height: 110px; width:400px; }
+.floating-middle .middle-line { margin-left: -10px; }
+/* 浮窗中层 -> 手机验证 -> 默认/验证状态 */
+.phone-default .phone-default-top ,
+.phone-verify .phone-verify-top ,
+.email-default .email-default-top ,
+.email-verify-success  { font-size: 14px; }
+
+.phone-default .phone-default-verify ,
+.phone-verify .phone-verify-verify ,
+.email-default .email-default-verify { margin-top: 20px; width: 100%; }
+
+.phone-default .phone-default-verify input ,
+.phone-verify .phone-verify-verify input ,
+.email-default .email-default-verify input { background-position: 0 -29px; height: 34px; width: 170px; border: none; color: #a6a6a6; line-height: 34px; font-size: 14px; padding-left: 5px; }
+
+.phone-default .phone-default-bottom , 
+.phone-verify  .phone-verify-bottom ,
+.email-default .email-default-bottom { height: 35px; }
+
+.phone-default .phone-default-bottom .phone-default-tip ,
+.phone-verify  .phone-verify-bottom .phone-verify-tip ,
+.email-default .email-default-bottom .email-default-tip ,
+.email-verify-success-tip p  { font-size: 12px; line-height: 35px; margin-left: 10px;}
+
+.phone-default .phone-default-bottom .phone-default-tip .phone-tip-a { text-decoration: none; }
+.phone-default .phone-default-bottom .phone-default-tip .phone-tip-a:hover { cursor: pointer; border-bottom: 1px solid #1e94d2; }
+/* 浮窗中层 -> 手机验证 -> 验证状态 */
+.phone-verify .phone-verify-verify .phone-verify-button { background-position : 0 -146px; width: 82px; height: 34px; line-height: 34px; text-align: center; color: #fff; font-size: 16px; text-decoration: none; }
+.phone-verify .phone-verify-verify .phone-verify-return { font-size: 14px; margin-left: 5px; line-height: 34px; cursor: pointer; }
+
+/* 浮窗中层 -> 倒计时 */
+.phone-verify-timedown ,
+.email-verify-timedown { font-size: 14px; line-height: 34px; margin-top: 15px; }
+.phone-verify-timedown .phone-timedown-tip ,
+.email-verify-timedown .email-timedown-tip { background-position : 0 -107px; width: 100px; height: 34px; line-height: 34px; font-size: 11px; color: #999; text-decoration: none; text-align: center;}
+.phone-default .phone-default-verify .phone-default-button ,
+.email-default .email-default-verify .email-default-button ,
+.phone-verify-timedown .phone-timeover-button ,
+.email-verify-timedown .email-timeover-button  { background-position: 0 -68px; width: 100px; height: 34px; color: #f10180; font-size: 12px; line-height: 34px; text-align: center; cursor: pointer; text-decoration: none; display: block; }
+
+/* 浮窗中层 -> 邮箱验证 -> 验证状态 */
+.email-verify .email-verify-top { font-size: 14px; line-height: 25px;  }
+.email-verify .email-verify-in ,
+.email-verify .email-verify-return { text-decoration: none; }
+.email-verify .email-verify-in:hover ,
+.email-verify .email-verify-return:hover,
+.email-verify .middle-line { margin-top: 63px; }
+.email-verify-success-tip { height: 29px; }
+.email-verify-success p { line-height: 34px; }
+.email-verify-success-btn { background-position : 0 -146px; width: 82px; height: 34px; line-height: 34px; text-align: center; color: #fff; text-decoration: none; }
+.email-verify-success-btn:hover { color: #fff; }
+
+.phone-verify .phone-verify-verify { position: relative; }
+.shadow-code { position: relative; width: 100px; height: 34px; background-color : #000; opacity : 0.3; filter : alpha(opacity = 30); z-index : 1000; top: -34px; left: 126px; float: left; }
+.shadow-button { position: absolute; width: 82px; height: 34px; background-color : #000; opacity : 0.3; filter : alpha(opacity = 30); z-index : 1000; top: 0px; left: 175px;float: left; }
+
+
